@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+dtx-to-wif
+python-multipart
