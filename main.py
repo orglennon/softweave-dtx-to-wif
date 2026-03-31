@@ -8,7 +8,11 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://your-vite-app.vercel.app"],  # your frontend URL
+    allow_origins=[
+        "https://wifwork.net",
+        "https://wifwork.com",
+        "http://localhost:5174",  # for local dev
+    ],
     allow_methods=["POST"],
     allow_headers=["*"],
 )
